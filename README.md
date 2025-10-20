@@ -165,6 +165,31 @@ Provides a **flexible query language** to retrieve and manipulate backend data e
 
 ---
 
+## 🔒 API Security
+
+### Key Security Measures
+
+| Measure                               | Description                                                                                                                                        |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Authentication**                    | The process of verifying a user's identity to ensure data protection.                                                                              |
+| **Authorization**                     | Determines what an authenticated user is permitted to do.                                                                                          |
+| **Input Validation and Sanitization** | Check and clean all data received by the API endpoints.                                                                                            |
+| **Rate Limiting**                     | Restrict the number of API requests a user or IP can make within a given time frame.                                                               |
+| **Data Encryption**                   | Ensures all data transmitted between the client and the API is encrypted using HTTPS — especially for securing payments and sensitive credentials. |
+
+---
+
+## ⚙️ CI/CD Pipeline
+
+### Tools Used
+
+| Tool               | Role in CI/CD Pipeline                                                                           |
+| ------------------ | ------------------------------------------------------------------------------------------------ |
+| **GitHub Actions** | Defines automated workflows, triggers builds on commits, and manages deployment stages.          |
+| **Docker**         | Handles containerization by packaging the application and its dependencies into portable images. |
+
+---
+
 ## 📦 Deployment & Scalability
 
 - **Containerized with Docker** for consistent environments.
