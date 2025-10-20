@@ -1,3 +1,158 @@
+# 🏡 Airbnb Clone – Frontend
+
+## 📘 Project Overview
+
+This project is the **frontend implementation** of a full-stack clone of **Airbnb**, the global accommodation booking platform.  
+It provides a responsive and interactive interface for browsing property listings, viewing detailed property information, and completing bookings.
+
+The frontend is built using **modern web technologies** with a focus on **performance, reusability, and user experience (UX)**.
+
+---
+
+## 🎯 Learning Objectives
+
+By completing this project, you will:
+
+- Learn to implement **responsive UI/UX designs**.
+- Understand how to structure and organize a **complex web application**.
+- Gain experience in **component-based architecture** (React or similar frameworks).
+- Collaborate using **Git and GitHub** with version control best practices.
+- Apply **modern web development standards** for maintainability and scalability.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category            | Tools / Frameworks                                 |
+| ------------------- | -------------------------------------------------- |
+| **Frontend**        | HTML, CSS, JavaScript (React or similar framework) |
+| **Design**          | Figma (UI/UX Design)                               |
+| **Version Control** | Git & GitHub                                       |
+| **Deployment**      | (e.g., Vercel, Netlify, or similar)                |
+
+---
+
+## 📋 Requirements
+
+### 1. Project Initialization
+
+- Initialize GitHub repository with clear folder structure.
+- Include this comprehensive `README.md`.
+- Set up environment (React project with `create-react-app` or Vite).
+
+### 2. UI/UX Design Planning
+
+- Document **design goals** and **key features**.
+- Analyze **Figma specifications**.
+- Identify **color schemes**, **typography**, and **spacing standards**.
+- Create **page wireframes** for the main views.
+
+---
+
+## 👥 Roles and Responsibilities
+
+| Role                    | Responsibilities                            |
+| ----------------------- | ------------------------------------------- |
+| **Project Manager**     | Oversees progress, manages deliverables     |
+| **Frontend Developers** | Build UI components, ensure responsiveness  |
+| **Designers**           | Create mockups, maintain design consistency |
+| **QA/Testers**          | Write test cases, report and track bugs     |
+| **DevOps Engineers**    | Manage deployment and CI/CD pipelines       |
+| **Product Owner**       | Define requirements and prioritize features |
+
+---
+
+## 🧩 UI Component Architecture
+
+### Planned Reusable Components
+
+#### 🧭 Navbar
+
+- Logo
+- Search bar
+- User navigation (Login, Profile)
+- Responsive hamburger menu
+
+#### 🏠 Property Card
+
+- Image
+- Price, location, and rating
+- “Favorite” button
+- Click to open detailed property view
+
+#### 📜 Footer
+
+- Company info and quick links
+- Social media icons
+- Copyright
+
+Each component will be:
+
+- **Modular** and reusable
+- **Accessible** following WCAG guidelines
+- **Responsive** for different screen sizes
+
+---
+
+## 🎨 Design Specifications (Figma)
+
+### Color Palette
+
+| Type               | Hex Code  |
+| ------------------ | --------- |
+| **Primary**        | `#FF5A5F` |
+| **Secondary**      | `#008489` |
+| **Background**     | `#FFFFFF` |
+| **Text**           | `#222222` |
+| **Secondary Text** | `#717171` |
+
+### Typography
+
+| Type               | Font     | Weight       | Size    |
+| ------------------ | -------- | ------------ | ------- |
+| **Primary Text**   | Circular | 500 (Medium) | 16px    |
+| **Headings**       | Circular | 700 (Bold)   | 24–32px |
+| **Secondary Text** | Circular | 400 (Book)   | 14px    |
+
+---
+
+## 🖥️ Main Pages
+
+| Page                      | Description                                                |
+| ------------------------- | ---------------------------------------------------------- |
+| **Property Listing View** | Grid display of available properties with filters          |
+| **Property Details View** | Complete details with gallery, amenities, and booking form |
+| **Checkout Page**         | Streamlined booking confirmation and payment view          |
+
+---
+
+## 💡 Best Practices
+
+- **Code Organization:** Keep components modular and maintain clean folder hierarchy.
+- **Version Control:** Use feature branches and meaningful commit messages.
+- **Responsive Design:** Adopt a mobile-first approach.
+- **Accessibility:** Follow WCAG 2.1 standards.
+- **Documentation:** Keep README and design documents updated.
+- **Testing:** Implement unit and integration tests for key components.
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/airbnb-clone-frontend.git
+
+# Navigate to the project directory
+cd airbnb-clone-frontend
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
+
 # 🏠 Airbnb Clone Backend
 
 A robust and scalable backend for the **Airbnb Clone Project**, designed to handle **user management, property listings, bookings, payments, and reviews**. Built with modern technologies to ensure high performance, security, and scalability — delivering a seamless experience for users and hosts alike.
@@ -31,37 +186,37 @@ The goal of this project is to develop a backend that replicates Airbnb’s core
 
 ### 2. User Authentication
 
-**Endpoints:**  
-`/users/`, `/users/{user_id}/`  
-**Features:**  
+**Endpoints:**
+`/users/`, `/users/{user_id}/`
+**Features:**
 Register, log in, manage profiles, and handle secure authentication.
 
 ### 3. Property Management
 
-**Endpoints:**  
-`/properties/`, `/properties/{property_id}/`  
-**Features:**  
+**Endpoints:**
+`/properties/`, `/properties/{property_id}/`
+**Features:**
 Create, update, retrieve, and delete property listings.
 
 ### 4. Booking System
 
-**Endpoints:**  
-`/bookings/`, `/bookings/{booking_id}/`  
-**Features:**  
+**Endpoints:**
+`/bookings/`, `/bookings/{booking_id}/`
+**Features:**
 Manage bookings, including reservation details, check-in, and check-out.
 
 ### 5. Payment Processing
 
-**Endpoints:**  
-`/payments/`  
-**Features:**  
+**Endpoints:**
+`/payments/`
+**Features:**
 Handle transactions securely and record payment history.
 
 ### 6. Review System
 
-**Endpoints:**  
-`/reviews/`, `/reviews/{review_id}/`  
-**Features:**  
+**Endpoints:**
+`/reviews/`, `/reviews/{review_id}/`
+**Features:**
 Post, update, and delete property reviews and ratings.
 
 ### 7. Database Optimizations
@@ -205,3 +360,4 @@ Provides a **flexible query language** to retrieve and manipulate backend data e
 - AI-based property recommendations.
 
 ---
+```
