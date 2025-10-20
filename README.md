@@ -152,8 +152,9 @@ npm install
 # Start the development server
 npm start
 
+```
 
-# 🏠 Airbnb Clone Backend
+## 🏠 Airbnb Clone Backend
 
 A robust and scalable backend for the **Airbnb Clone Project**, designed to handle **user management, property listings, bookings, payments, and reviews**. Built with modern technologies to ensure high performance, security, and scalability — delivering a seamless experience for users and hosts alike.
 
@@ -186,37 +187,37 @@ The goal of this project is to develop a backend that replicates Airbnb’s core
 
 ### 2. User Authentication
 
-**Endpoints:**
-`/users/`, `/users/{user_id}/`
-**Features:**
+**Endpoints:**  
+`/users/`, `/users/{user_id}/`  
+**Features:**  
 Register, log in, manage profiles, and handle secure authentication.
 
 ### 3. Property Management
 
-**Endpoints:**
-`/properties/`, `/properties/{property_id}/`
-**Features:**
+**Endpoints:**  
+`/properties/`, `/properties/{property_id}/`  
+**Features:**  
 Create, update, retrieve, and delete property listings.
 
 ### 4. Booking System
 
-**Endpoints:**
-`/bookings/`, `/bookings/{booking_id}/`
-**Features:**
+**Endpoints:**  
+`/bookings/`, `/bookings/{booking_id}/`  
+**Features:**  
 Manage bookings, including reservation details, check-in, and check-out.
 
 ### 5. Payment Processing
 
-**Endpoints:**
-`/payments/`
-**Features:**
+**Endpoints:**  
+`/payments/`  
+**Features:**  
 Handle transactions securely and record payment history.
 
 ### 6. Review System
 
-**Endpoints:**
-`/reviews/`, `/reviews/{review_id}/`
-**Features:**
+**Endpoints:**  
+`/reviews/`, `/reviews/{review_id}/`  
+**Features:**  
 Post, update, and delete property reviews and ratings.
 
 ### 7. Database Optimizations
@@ -360,4 +361,3 @@ Provides a **flexible query language** to retrieve and manipulate backend data e
 - AI-based property recommendations.
 
 ---
-```
