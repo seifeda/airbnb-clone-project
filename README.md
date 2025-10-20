@@ -62,7 +62,7 @@ By completing this project, you will:
 
 ---
 
-## 🧩 UI Component Patterns
+UI Component Patterns
 
 ### Planned Reusable Components
 
